@@ -1,5 +1,5 @@
 ```bash
-$ tree
+tree
 .
 ├── include
 │   ├── bar.h
@@ -10,4 +10,7 @@ $ tree
     ├── bar.cc
     ├── foo.cc
     └── main.cc
+```
+```bash
+make -j$(nproc)
 ```
